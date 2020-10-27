@@ -1,0 +1,40 @@
+<h2>Theory</h2>
+
+<p>One of the useful modules for reading arguments from the command line is called the <a target="_blank" href="https://docs.python.org/3/howto/argparse.html" rel="noopener noreferrer nofollow">argparse module</a>. </p>
+
+<p>Even though you may feel overwhelmed by its documentation at the start, it is actually quite straightforward and easy to use. Check out this example:</p>
+
+<pre><code class="language-python">import argparse
+
+parser = argparse.ArgumentParser()
+parser.add_argument('--argument1')
+args = parser.parse_args()
+print(args.argument1)
+# the value of the argument1 is printed</code></pre>
+
+<p>In this example, we've created an instance of our argument parser, added an expected argument by using the parser's method <code class="language-python">add_argument()</code> and parsed the arguments by means of the <code class="language-python">parse_args()</code> method. After that, we can get the value of our argument by addressing the object <code class="language-python">args</code> created by the <code class="language-python">parse_args()</code> method and calling the name of the argument (<code class="language-python">argument1</code>) we've stated before: <code class="language-python">args.argument1</code>.</p>
+
+<h2>Description</h2>
+
+<p>Files are used to save progress and restore it the next time the user runs the program. It's tedious to print the actions manually. Sometimes you can just forget to do it! Let's add run arguments that define which file to read at the start and which file to save at the exit.</p>
+
+<h2>Objectives</h2>
+
+<p>When provided with command-line arguments, your program should do the following:</p>
+
+<ul>
+	<li>If  <code class="language-python">--import_from=IMPORT</code> is passed, where <code class="language-python">IMPORT</code>  is the file name, read the initial card set from the external file, and print the message <code class="language-python">n cards have been loaded.</code> as the first line of the output, where <code class="language-python">n</code> is the number of cards loaded from the external file. If such an argument is not provided, the set of cards should initially be empty and no message about card loading should be output.</li>
+	<li>If  <code class="language-python">--export_to=EXPORT</code> is passed, where <code class="language-python">EXPORT</code> is the file name, write all cards that are in the program memory into this file after the user has entered <code class="language-python">exit</code>, and the last line of the output should be <code class="language-python">n cards have been saved.</code>, where <code class="language-python">n</code> is the number of flashcards in the set.</li>
+</ul>
+
+<h2>Run arguments examples</h2>
+
+<pre><code class="language-no-highlight">python flashcards.py --import_from=derivatives.txt</code></pre>
+
+<pre><code class="language-no-highlight">python flashcards.py --export_to=animals.txt
+</code></pre>
+
+<pre><code class="language-no-highlight">python flashcards.py --import_from=words13june.txt --export_to=words14june.txt
+</code></pre>
+
+<pre><code class="language-no-highlight">python flashcards.py --export_to=vocab.txt --import_from=vocab.txt </code></pre>
