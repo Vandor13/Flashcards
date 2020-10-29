@@ -482,6 +482,276 @@ files:
     if __name__ == "__main__":
         FlashcardsTest("flashcards.flashcards").run_tests()
   learner_created: false
+- name: flashcards/spaceships.json
+  visible: true
+  text: '{"Star Wars": ["X-Wing", 0], "Star Trek": ["Enterprise", 0], "Firefly": ["Serenity",
+    0]}'
+  learner_created: true
+- name: mylog.txt
+  visible: true
+  text: |
+    Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+    hardest card
+    There are no cards with errors
+    Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+    add
+    The card:
+    Canada
+    The definition of the card:
+    Ottawa
+    The pair ("Canada":"Ottawa") has been added.
+    Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+    add
+    The card:
+    Japan
+    The definition of the card:
+    Tokyo
+    The pair ("Japan":"Tokyo") has been added.
+    Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+    add
+    The card:
+    Poland
+    The definition of the card:
+    Warsaw
+    The pair ("Poland":"Warsaw") has been added.
+    Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+    ask
+    How many times to ask?
+    100
+    Washington
+    Wrong. The right answer is "Warsaw."
+    Washington
+    Wrong. The right answer is "Warsaw."
+    Washington
+    Wrong. The right answer is "Warsaw."
+    Washington
+    Wrong. The right answer is "Tokyo."
+    Washington
+    Wrong. The right answer is "Tokyo."
+    Washington
+    Wrong. The right answer is "Tokyo."
+    Washington
+    Wrong. The right answer is "Tokyo."
+    Washington
+    Wrong. The right answer is "Ottawa."
+    Washington
+    Wrong. The right answer is "Tokyo."
+    Washington
+    Wrong. The right answer is "Tokyo."
+    Washington
+    Wrong. The right answer is "Warsaw."
+    Washington
+    Wrong. The right answer is "Ottawa."
+    Washington
+    Wrong. The right answer is "Ottawa."
+    Washington
+    Wrong. The right answer is "Warsaw."
+    Washington
+    Wrong. The right answer is "Warsaw."
+    Washington
+    Wrong. The right answer is "Tokyo."
+    Washington
+    Wrong. The right answer is "Ottawa."
+    Washington
+    Wrong. The right answer is "Warsaw."
+    Washington
+    Wrong. The right answer is "Ottawa."
+    Washington
+    Wrong. The right answer is "Ottawa."
+    Washington
+    Wrong. The right answer is "Ottawa."
+    Washington
+    Wrong. The right answer is "Warsaw."
+    Washington
+    Wrong. The right answer is "Warsaw."
+    Washington
+    Wrong. The right answer is "Tokyo."
+    Washington
+    Wrong. The right answer is "Tokyo."
+    Washington
+    Wrong. The right answer is "Tokyo."
+    Washington
+    Wrong. The right answer is "Tokyo."
+    Washington
+    Wrong. The right answer is "Tokyo."
+    Washington
+    Wrong. The right answer is "Warsaw."
+    Washington
+    Wrong. The right answer is "Warsaw."
+    Washington
+    Wrong. The right answer is "Warsaw."
+    Washington
+    Wrong. The right answer is "Warsaw."
+    Washington
+    Wrong. The right answer is "Ottawa."
+    Washington
+    Wrong. The right answer is "Warsaw."
+    Washington
+    Wrong. The right answer is "Ottawa."
+    Washington
+    Wrong. The right answer is "Warsaw."
+    Washington
+    Wrong. The right answer is "Warsaw."
+    Washington
+    Wrong. The right answer is "Warsaw."
+    Washington
+    Wrong. The right answer is "Ottawa."
+    Washington
+    Wrong. The right answer is "Ottawa."
+    Washington
+    Wrong. The right answer is "Warsaw."
+    Washington
+    Wrong. The right answer is "Warsaw."
+    Washington
+    Wrong. The right answer is "Ottawa."
+    Washington
+    Wrong. The right answer is "Tokyo."
+    Washington
+    Wrong. The right answer is "Ottawa."
+    Washington
+    Wrong. The right answer is "Warsaw."
+    Washington
+    Wrong. The right answer is "Warsaw."
+    Washington
+    Wrong. The right answer is "Ottawa."
+    Washington
+    Wrong. The right answer is "Warsaw."
+    Washington
+    Wrong. The right answer is "Warsaw."
+    Washington
+    Wrong. The right answer is "Warsaw."
+    Washington
+    Wrong. The right answer is "Tokyo."
+    Washington
+    Wrong. The right answer is "Ottawa."
+    Washington
+    Wrong. The right answer is "Ottawa."
+    Washington
+    Wrong. The right answer is "Warsaw."
+    Washington
+    Wrong. The right answer is "Ottawa."
+    Washington
+    Wrong. The right answer is "Tokyo."
+    Washington
+    Wrong. The right answer is "Tokyo."
+    Washington
+    Wrong. The right answer is "Tokyo."
+    Washington
+    Wrong. The right answer is "Ottawa."
+    Washington
+    Wrong. The right answer is "Ottawa."
+    Washington
+    Wrong. The right answer is "Ottawa."
+    Washington
+    Wrong. The right answer is "Tokyo."
+    Washington
+    Wrong. The right answer is "Tokyo."
+    Washington
+    Wrong. The right answer is "Tokyo."
+    Washington
+    Wrong. The right answer is "Ottawa."
+    Washington
+    Wrong. The right answer is "Ottawa."
+    Washington
+    Wrong. The right answer is "Ottawa."
+    Washington
+    Wrong. The right answer is "Ottawa."
+    Washington
+    Wrong. The right answer is "Ottawa."
+    Washington
+    Wrong. The right answer is "Warsaw."
+    Washington
+    Wrong. The right answer is "Warsaw."
+    Washington
+    Wrong. The right answer is "Ottawa."
+    Washington
+    Wrong. The right answer is "Tokyo."
+    Washington
+    Wrong. The right answer is "Tokyo."
+    Washington
+    Wrong. The right answer is "Warsaw."
+    Washington
+    Wrong. The right answer is "Ottawa."
+    Washington
+    Wrong. The right answer is "Ottawa."
+    Washington
+    Wrong. The right answer is "Ottawa."
+    Washington
+    Wrong. The right answer is "Tokyo."
+    Washington
+    Wrong. The right answer is "Warsaw."
+    Washington
+    Wrong. The right answer is "Warsaw."
+    Washington
+    Wrong. The right answer is "Tokyo."
+    Washington
+    Wrong. The right answer is "Tokyo."
+    Washington
+    Wrong. The right answer is "Warsaw."
+    Washington
+    Wrong. The right answer is "Tokyo."
+    Washington
+    Wrong. The right answer is "Ottawa."
+    Washington
+    Wrong. The right answer is "Warsaw."
+    Washington
+    Wrong. The right answer is "Warsaw."
+    Washington
+    Wrong. The right answer is "Tokyo."
+    Washington
+    Wrong. The right answer is "Tokyo."
+    Washington
+    Wrong. The right answer is "Ottawa."
+    Washington
+    Wrong. The right answer is "Tokyo."
+    Washington
+    Wrong. The right answer is "Tokyo."
+    Washington
+    Wrong. The right answer is "Tokyo."
+    Washington
+    Wrong. The right answer is "Ottawa."
+    Washington
+    Wrong. The right answer is "Tokyo."
+    Washington
+    Wrong. The right answer is "Warsaw."
+    Washington
+    Wrong. The right answer is "Tokyo."
+    Washington
+    Wrong. The right answer is "Tokyo."
+    Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+    hardest card
+    The hardest cards are "Japan", "Poland". You have 34 errors answering them.
+    Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+  learner_created: true
+- name: flashcards/mylog.txt
+  visible: true
+  text: |
+    Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+    File name:
+    3 cards have been loaded.
+    Input the action (add, remove, import, export, ask, exit, log, hardest card, reset stats):
+  learner_created: true
+- name: flashcards/space2.json
+  visible: true
+  text: '{"Star Wars": ["X-Wing", 1], "Star Trek": ["Enterprise", 0], "Firefly": ["Serenity",
+    1]}'
+  learner_created: true
+- name: flashcards/loggy.txt
+  visible: true
+  text: 'Input the action (add, remove, import, export, ask, exit, log, hardest card,
+    reset stats):File name:3 cards have been loaded.Input the action (add, remove,
+    import, export, ask, exit, log, hardest card, reset stats):File name:'
+  learner_created: true
+- name: flashcards/states.txt
+  visible: true
+  learner_created: true
+- name: flashcards/__init__.py
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/127/stages/679/implement
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations! Continue on <a href="https://hyperskill.org/projects/127/stages/679/implement">JetBrains
+    Academy</a>
+  time: Thu, 29 Oct 2020 15:14:34 UTC
 record: -1
