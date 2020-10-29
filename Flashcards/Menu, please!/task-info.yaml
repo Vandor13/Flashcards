@@ -285,6 +285,13 @@ files:
     if __name__ == "__main__":
         FlashcardsTest("flashcards.flashcards").run_tests()
   learner_created: false
+- name: flashcards/spaceships.json
+  visible: true
+  learner_created: true
 feedback_link: https://hyperskill.org/projects/127/stages/677/implement
-status: Unchecked
+status: Solved
+feedback:
+  message: Congratulations! Continue on <a href="https://hyperskill.org/projects/127/stages/677/implement">JetBrains
+    Academy</a>
+  time: Wed, 28 Oct 2020 14:16:12 UTC
 record: -1

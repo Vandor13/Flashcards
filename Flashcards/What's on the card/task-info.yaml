@@ -59,5 +59,9 @@ files:
         FlashcardsTest("flashcards.flashcards").run_tests()
   learner_created: false
 feedback_link: https://hyperskill.org/projects/127/stages/674/implement
-status: Unchecked
-record: -1
+status: Solved
+feedback:
+  message: Congratulations! Continue on <a href="https://hyperskill.org/projects/127/stages/674/implement">JetBrains
+    Academy</a>
+  time: Tue, 27 Oct 2020 14:18:16 UTC
+record: 2
